@@ -14,6 +14,7 @@ else
 fi 
 apt-get update
 apt-get upgrade
+apt-get install curl -y
 if [ -e /data/data/com.termux/files/usr/bin/python2.7 ]
 then
 	echo ""
